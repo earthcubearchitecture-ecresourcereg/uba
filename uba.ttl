@@ -9,7 +9,7 @@
 <http://cor.esipfed.org/ont/earthcube/UBA> rdf:type owl:Ontology ;
                                             <http://purl.org/dc/elements/1.1/description> "The Usage Volume Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists a rough estimate of how many users are using a resources in the registry."@en ;
                                             <http://purl.org/dc/elements/1.1/title> "Usage Volume Controlled Vocabulary"@en ;
-                                            <http://purl.org/dc/terms/bibliographicCitation> "Duerr, R., 2019, \"Usage VolumentControlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT"@en ;
+                                            <http://purl.org/dc/terms/bibliographicCitation> "Duerr, R., 2019, \"Usage Volume Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT"@en ;
                                             <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> ,
                                                                                "Ruth Duerr"@en ;
                                             owl:versionInfo "1.0.0"@en .
