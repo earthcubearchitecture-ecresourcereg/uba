@@ -1,0 +1,170 @@
+[ {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/UBA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The Usage Volume Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists a rough estimate of how many users are using a resources in the registry."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Usage Volume Controlled Vocabulary"
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@language" : "en",
+    "@value" : "Duerr, R., 2019, \"Usage VolumentControlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/share-your-work/public-domain/cc0/"
+  }, {
+    "@language" : "en",
+    "@value" : "Ruth Duerr"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-22T19:32:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wide usage (>50 adopters)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000006"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-22T19:32:35Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Some usage (10-50 adopters)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000006"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-22T19:32:50Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Low usage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000006"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-22T19:33:10Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unknown"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000006"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-22T19:33:20Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Not Applicable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000006"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/UBA_0000006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-22T19:33:37Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Usage Volume"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "definition"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "definition source"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasURI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

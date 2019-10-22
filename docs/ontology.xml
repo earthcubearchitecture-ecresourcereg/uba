@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/UBA#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/UBA"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/UBA">
+        <dc:description xml:lang="en">The Usage Volume Controlled Vocabulary was created for NSF&apos;s EarthCube Program&apos;s Resource Registry.  At this point it merely lists a rough estimate of how many users are using a resources in the registry.</dc:description>
+        <dc:title xml:lang="en">Usage Volume Controlled Vocabulary</dc:title>
+        <terms:bibliographicCitation xml:lang="en">Duerr, R., 2019, &quot;Usage VolumentControlled Vocabulary&quot;, ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT</terms:bibliographicCitation>
+        <terms:license rdf:resource="https://creativecommons.org/share-your-work/public-domain/cc0/"/>
+        <terms:license xml:lang="en">Ruth Duerr</terms:license>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasURI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasURI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/UBA_0000001 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/UBA_0000001">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/UBA_0000006"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T19:32:13Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Wide usage (&gt;50 adopters)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/UBA_0000002 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/UBA_0000002">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/UBA_0000006"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T19:32:35Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Some usage (10-50 adopters)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/UBA_0000003 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/UBA_0000003">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/UBA_0000006"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T19:32:50Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Low usage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/UBA_0000004 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/UBA_0000004">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/UBA_0000006"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T19:33:10Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Unknown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/UBA_0000005 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/UBA_0000005">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/UBA_0000006"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T19:33:20Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Not Applicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/UBA_0000006 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/UBA_0000006">
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-22T19:33:37Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Usage Volume</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

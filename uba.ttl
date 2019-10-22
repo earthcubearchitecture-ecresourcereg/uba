@@ -1,0 +1,126 @@
+@prefix : <http://cor.esipfed.org/ont/earthcube/UBA#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://cor.esipfed.org/ont/earthcube/UBA> .
+
+<http://cor.esipfed.org/ont/earthcube/UBA> rdf:type owl:Ontology ;
+                                            <http://purl.org/dc/elements/1.1/description> "The Usage Volume Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists a rough estimate of how many users are using a resources in the registry."@en ;
+                                            <http://purl.org/dc/elements/1.1/title> "Usage Volume Controlled Vocabulary"@en ;
+                                            <http://purl.org/dc/terms/bibliographicCitation> "Duerr, R., 2019, \"Usage VolumentControlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT"@en ;
+                                            <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> ,
+                                                                               "Ruth Duerr"@en ;
+                                            owl:versionInfo "1.0.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "definition" .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> rdf:type owl:AnnotationProperty ;
+                                             rdfs:label "definition source" .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasURI
+<http://www.geneontology.org/formats/oboInOwl#hasURI> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://cor.esipfed.org/ont/earthcube/UBA_0000001
+<http://cor.esipfed.org/ont/earthcube/UBA_0000001> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/UBA_0000006> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:32:13Z"^^xsd:dateTime ;
+                                                   rdfs:label "Wide usage (>50 adopters)"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/UBA_0000002
+<http://cor.esipfed.org/ont/earthcube/UBA_0000002> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/UBA_0000006> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:32:35Z"^^xsd:dateTime ;
+                                                   rdfs:label "Some usage (10-50 adopters)"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/UBA_0000003
+<http://cor.esipfed.org/ont/earthcube/UBA_0000003> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/UBA_0000006> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:32:50Z"^^xsd:dateTime ;
+                                                   rdfs:label "Low usage"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/UBA_0000004
+<http://cor.esipfed.org/ont/earthcube/UBA_0000004> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/UBA_0000006> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:33:10Z"^^xsd:dateTime ;
+                                                   rdfs:label "Unknown"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/UBA_0000005
+<http://cor.esipfed.org/ont/earthcube/UBA_0000005> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/UBA_0000006> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:33:20Z"^^xsd:dateTime ;
+                                                   rdfs:label "Not Applicable"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/UBA_0000006
+<http://cor.esipfed.org/ont/earthcube/UBA_0000006> rdf:type owl:Class ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:33:37Z"^^xsd:dateTime ;
+                                                   rdfs:label "Usage Volume"@en .
+
+
+###  Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi
